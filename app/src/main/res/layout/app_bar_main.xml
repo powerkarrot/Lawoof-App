@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.karrot.lawoof.Activities.MainActivity"
+    style="?attr/toolbarStyle">
+
+    <include layout="@layout/content_main" />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        app:backgroundTint="@color/fabcolor" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="?attr/toolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/testtoolbar"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="@dimen/cast_intro_overlay_title_margin_top"
+        android:requiresFadingEdge="vertical"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleMargin="6dp"
+        app:titleTextColor="@android:color/white" />
+
+    <!--take toolbar outside this layout to make it transparent -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+<!--
+
+      <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+            android:background="@android:drawable/screen_background_dark_transparent"
+
+    -->

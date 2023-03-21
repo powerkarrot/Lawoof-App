@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sucheStarten"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Search Pets" />
+        <item
+            android:id="@+id/nav_safeSpace"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Safe Space" />
+        <item
+            android:id="@+id/nav_meineTiere"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Pets" />
+        <item
+            android:id="@+id/nav_spaziergangMelden"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Register Walk" />
+        <item
+            android:id="@+id/nav_spaziergangEinsehen"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="See Walks" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_normal"
+        android:orderInCategory="101"
+        android:title="@string/map_setting_normal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_hybrid"
+        android:orderInCategory="101"
+        android:title="@string/map_setting_hybrid"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_sattelite"
+        android:orderInCategory="101"
+        android:title="@string/map_setting_sattelite" />
+    <item
+        android:id="@+id/map_terrain"
+        android:orderInCategory="101"
+        android:title="@string/map_setting_terrain"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/api_test"
+        android:orderInCategory="101"
+        android:title="@string/settings_api_test"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cute_paw"
+        android:icon="@mipmap/tatze"
+        android:title="DoSomething"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ff4081</color>
+    <color name="GlassBlackBG">#121212</color>
+    <color name="glassyhint">#ffffff</color>
+    <color name="glassytext">#ffffff</color>
+    <color name="grassgreen">#33aa69</color>
+    <color name="fabcolor">#9233aa69</color>
+    <color name="white_supremacy">#f1f1f1</color>
+    <!-- Not used... yet -->
+    <color name="hinting_at_white_supremacy">#1f1f33</color>
+    <color name="hinting_at_black_supremacy">#e97a7a8f</color>
+    <color name="testtoolbar">#704a6075</color>
+
+    <color name="sign_in_drawable_transparent_white">#CCFFFFFF</color>
+    <color name="material_textcolor">#757575</color>
+    <color name="facebook_blue">#3B5998</color>
+    <color name="button_color_material_design">#4CAF50</color>
+    <color name="button_color_material_design_alpha_90">#E64CAF50</color>
+    <color name="button_color_material_design_alt">#F44336</color>
+    <color name="button_color_material_design_alt_alpha_90">#E6F44336</color>
+</resources>

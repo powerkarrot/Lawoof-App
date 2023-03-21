@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Developer Options">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Debug Mode"
+            android:key="check_box_preference_1" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="User Options">
+        <RingtonePreference
+            android:defaultValue=""
+            android:title="Ringtone"
+            android:key="ringtone_preference_1" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

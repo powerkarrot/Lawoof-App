@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "431741237006",
+    "firebase_url": "https://lawoof-app.firebaseio.com",
+    "project_id": "lawoof-app",
+    "storage_bucket": "lawoof-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431741237006:android:9a205979790da85b",
+        "android_client_info": {
+          "package_name": "com.example.karrot.lawoof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431741237006-cm8vj4mcqa8fe36e64he5lmhhj654176.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karrot.lawoof",
+            "certificate_hash": "49b32e6618775248b3c857b275292906fb04b2e8"
+          }
+        },
+        {
+          "client_id": "431741237006-qeiklmcta8o640mha4kv1u36mssm1vod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-BMAMFKvPoW9MaqLphQg1-Tml1UdjBGs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431741237006-qeiklmcta8o640mha4kv1u36mssm1vod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
