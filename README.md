@@ -1,6 +1,6 @@
 lawoof-app
 
-libaries:
+libraries:
 
 http://loopj.com/android-async-http/
 https://loopj.com/android-async-http/doc/
